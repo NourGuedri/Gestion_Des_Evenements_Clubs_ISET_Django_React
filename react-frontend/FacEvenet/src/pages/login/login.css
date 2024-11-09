@@ -1,0 +1,126 @@
+
+  
+  .main-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+
+  
+  .main-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .x-c {
+    position: absolute;
+    width: 100%;
+    height: 1024px;
+    background: url(../../assets/images/ieeeback.jpg)
+      no-repeat center;
+    background-size: cover;
+  }
+  
+  .frame-1 {
+    position: relative;
+    width: 621px;
+    height: 500px;
+    background: rgba(124, 124, 124, 0.192);
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 25px;
+    backdrop-filter: blur(127.5px);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .errors-container{
+    display: flex;
+    justify-content: center;
+  }
+  .titer-login {
+    
+    align-items: center;
+    justify-content: center;
+ 
+    color: #ffffff;
+    font-family: Jost, var(--default-font-family);
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 93.925px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  input{
+    margin: 5px 0;
+    width: 370px;
+    
+  }
+.input{
+
+    padding: 10px;
+}
+
+  .login-4 {
+    display: flex;
+    position: absolute;
+    height: 27px;
+    top: calc(50% - 13.5px);
+    left: calc(50% - 29px);
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.625px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .or {
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+    top: 15px;
+  }
+  .register {
+    display: flex;
+    height: 27px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.625px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .text{
+
+    font-size: 20px;
+  }
+.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

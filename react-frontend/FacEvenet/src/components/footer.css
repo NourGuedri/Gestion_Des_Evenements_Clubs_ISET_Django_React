@@ -1,0 +1,31 @@
+/* Style pour le footer */
+.footer {
+    position: relative; /* Position fixe */
+    left: 250px; /* Alignement à gauche */
+    /* Alignement en bas */
+    width: 100%; /* Largeur de la barre de navigation */
+    background-color:#fff; /* Couleur de fond */
+    padding: 20px; /* Espacement intérieur */
+    text-align: center; /* Centrage du texte */
+    z-index: -1;
+  }
+  
+  /* Style pour le texte du footer */
+  .footer p {
+    margin-bottom: 0; /* Supprimer la marge en bas */
+    font-size: 14px; /* Taille de la police */
+    color: #000000; /* Couleur du texte */
+  }
+  
+  /* Style pour le lien du footer */
+  .footer a {
+    color: #2f59d8; /* Couleur du lien */
+    text-decoration: none; /* Supprimer le soulignement du lien */
+  }
+  
+  /* Style pour le lien du footer au survol */
+  .footer a:hover {
+    text-decoration: underline; /* Soulignement du lien au survol */
+  }
+
+  

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* { box-sizing: border-box; }
+
+
+
+
+.app-content {
+    padding: 16px;
+    flex: 1;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.app-content-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 4px;
+    }
+    
+.app-content-headerText {
+      color:black;
+      font-size:25px;
+      line-height: 32px;
+      margin: 0;
+  }
+ .app-content-headerButton {
+      background-color: #135ed6;
+      color: #fff;
+      font-size: 14px; 
+      line-height: 24px;
+      border: none;
+      border-radius: 4px;
+      height: 32px;
+      padding: 0 16px;
+     transition: .2s;
+    }
+.app-content-headerButton:hover {
+      background-color: #000000;
+      color: white;
+      cursor: pointer;
+      transition: .2s;
+
+      
+    }
+    
+    .app-content-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 4px;
+    }
+.app-content-actions-wrapper {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+      }
+
+  
+
+  .preciedant-area-wrapper {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+
+  
+  .tableView  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .tableView th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tableView th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+
+  
+  .tableView .pi:hover {
+    color: #007bff !important;
+  }
+
+  .tableView table .action-button {
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+  }
+  .orange{
+    background-color: orange;
+  }
+  .green{
+    background-color: green;
+  }
+
+  
+ 
+  
+ 
+  
+ 
+    
+   
+   
+  
+  

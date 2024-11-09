@@ -1,0 +1,135 @@
+.app-content {
+  padding: 16px;
+  flex: 1;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4px;
+  }
+  
+.app-content-headerText {
+    color:black;
+    font-size:25px;
+    line-height: 32px;
+    margin: 0;
+}
+.app-content-headerButton {
+    background-color: #135ed6;
+    color: #fff;
+    font-size: 14px; 
+    line-height: 24px;
+    border: none;
+    border-radius: 4px;
+    height: 32px;
+    padding: 0 16px;
+   transition: .2s;
+  }
+.app-content-headerButton:hover {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+
+    
+  }
+.clubs .flex-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 100vh;
+}
+
+
+
+.clubs .card:hover {
+  translate: 0 -10px;
+}
+
+.clubs .card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 15px 0 0 10px;
+}
+
+.clubs .card-image {
+  height: 200px;
+  width: 100%;
+  background-color: #c9c9c9;
+  border-radius: 15px;
+  box-shadow: inset 8px 8px 10px #c3c3c3,
+            inset -8px -8px 10px #cfcfcf;
+}
+
+.clubs .card-body {
+  margin: 13px 0 0 10px;
+  color: rgb(31, 31, 31);
+  font-size: 15px;
+}
+
+.clubs .footer {
+  float: right;
+  margin: 28px 0 0 18px;
+  font-size: 13px;
+  color: #636363;
+}
+
+.clubs .by-name {
+  font-weight: 700;
+}
+.clubs .card .btn {
+  display: flex;
+  align-items: center;
+ 
+  /* border: 1px solid lighten(gray, 24%); */
+  height: 25px;
+  padding: 0 24px 0 16px;
+  letter-spacing: .25px;
+  border-radius: 24px;
+  cursor: pointer;
+  float: left;
+  
+ 
+ 
+}
+.clubs .card .btn:focus {
+    outline: none;
+  }
+
+.clubs .card  .btn-delete {
+  font-size: 16px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 60%;
+ top: -25px;
+}
+.clubs .card  .btn-edit {
+  font-size: 16px;
+  background: green;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 60%;
+ top: -25px;
+ border: none !important;
+}
+.clubs .card  .btn-delete:hover , .btn-edit:hover {
+    background-color: lighten(red, 48%);
+    
+
+  }
+  
+
+  
+.clubs .card  .btn-delete:focus, .btn-edit:focus {
+    box-shadow: 0 0 0 4px lighten(red, 40%);
+  }
+

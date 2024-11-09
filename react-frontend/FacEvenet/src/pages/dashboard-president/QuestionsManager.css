@@ -1,0 +1,14 @@
+.questions-manager-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: 50px;
+    min-height: 80vh;
+}
+table{
+    width: 80vw;
+}
+table td{
+    text-align: center;
+}
